@@ -4,18 +4,18 @@ v18.12.0
 ```bash
 done
 
-real	0m1.698s
-user	0m1.332s
-sys	0m0.675s
+real	0m1.036s
+user	0m0.893s
+sys	0m0.323s
 ```
 ## deno
-deno 1.28.0 (release, x86_64-unknown-linux-gnu)
+deno 1.28.1 (release, x86_64-unknown-linux-gnu)
 v8 10.9.194.1
 typescript 4.8.3
 ```bash
 done
 
-real	0m30.000s
-user	0m24.889s
-sys	0m18.944s
+real	0m20.031s
+user	0m17.747s
+sys	0m12.336s
 ```
