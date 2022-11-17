@@ -2,20 +2,16 @@
 ## node
 v18.12.0
 ```bash
-done
-
-real	0m1.698s
-user	0m1.332s
-sys	0m0.675s
+Write Uint8Array(128) x 1048576: 857.89ms
+Write Uint8Array(1024) x 131072: 643.356ms
+Write Uint8Array(1048576) x 128: 373.954ms
 ```
 ## deno
-deno 1.28.0 (release, x86_64-unknown-linux-gnu)
+deno 1.28.1 (release, x86_64-unknown-linux-gnu)
 v8 10.9.194.1
 typescript 4.8.3
 ```bash
-done
-
-real	0m30.000s
-user	0m24.889s
-sys	0m18.944s
+Write Uint8Array(128) x 1048576: 22712ms
+Write Uint8Array(1024) x 131072: 3652ms
+Write Uint8Array(1048576) x 128: 94ms
 ```
