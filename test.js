@@ -37,7 +37,7 @@ const NodeFile = (filename) => {
             }
             resolve()
         })
-    }) 
+    })
 
     return {
         write,
