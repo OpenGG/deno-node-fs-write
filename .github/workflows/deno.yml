@@ -51,7 +51,7 @@ jobs:
           echo '## deno' >> README.md
           deno --version | perl -pe 's/\n/\n\n/' >> README.md
           echo '```bash' >> README.md
-          echo '% deno run --allow-read --allow-write test.js > deno.log 2>&1' >> READMD.md
+          echo '% deno run --allow-read --allow-write test.js > deno.log 2>&1' >> README.md
           cat deno.log >> README.md
           echo '```' >> README.md
           echo '======='
