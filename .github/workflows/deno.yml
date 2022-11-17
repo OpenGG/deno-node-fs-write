@@ -45,7 +45,7 @@ jobs:
           echo '## node' >> README.md
           node --version >> README.md
           echo '```bash' >> README.md
-          echo '% node test.js > node.log 2>&1' >> READMD.md
+          echo '% node test.js > node.log 2>&1' >> README.md
           cat node.log >> README.md
           echo '```' >> README.md
           echo '## deno' >> README.md
