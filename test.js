@@ -71,6 +71,7 @@ const main = async () => {
     await testCase(128, 1024 * 1024)    // 128B x 1M
     await testCase(1024, 128 * 1024)    // 1K x 128K
     await testCase(16 * 1024, 8 * 1024) // 16K x 8K
+    await testCase(64 * 1024, 2 * 1024) // 16K x 8K
     await testCase(1024 * 1024, 128)    // 1M x 128
 }
 
